@@ -84,6 +84,10 @@ Herhangi bir sorunuz veya geri bildiriminiz varsa, [destek@rwazone.com](mailto:d
    - 🛠️ Genel arayüz düzenlemesi.
    - 🛠️ Uygulama başlatınca hizmetin otomatik çalışıyor gibi algılanmasının çözümü.
 
+**RWAZONE-GoodbyeDPI v1.5**
+   - 🌟 İnternet sağlayıcısı seçme bölümü eklendi. Kullandığınız sağlayıcıya göre seçim yapın.
+   - 🛠️ Uygulamanın birden fazla açılabilmesi düzeltildi.
+
 ---
 
 **RWA-GoodByeDPI** ile ağ bağlantılarınızı daha verimli ve güvenli bir şekilde yönetmek için hemen başlayın!
