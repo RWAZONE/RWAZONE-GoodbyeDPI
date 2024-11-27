@@ -2,6 +2,8 @@
 
 **RWAZONE-GoodByeDPI**, ağ bağlantılarınızı yönetmenizi ve DPI (Deep Packet Inspection) gibi ağ kısıtlamalarını aşmanıza yardımcı olan kullanımı kolay bir Windows uygulamasıdır. Bu araç, kullanıcıların belirli ağ arayüzlerini seçmelerine, DNS ayarlarını yapılandırmalarına ve GoodbyeDPI servisini kontrol etmelerine olanak tanır.
 
+Bu sayede internet hızınız etkilenmeden İnternet sağlayıcıları tarafından uygulanan kısıtlamaları aşabilir, özgür ve kesintisiz bir çevrimiçi deneyimin tadını çıkarabilirsiniz. Ayrıca, kullanıcı dostu arayüzü sayesinde teknik bilgi gerektirmeden kolayca yapılandırma yapabilir ve ağ bağlantılarınızı etkin bir şekilde yönetebilirsiniz. 
+
 ## 🚀 **Özellikler**
 
 - **Kullanıcı Dostu Arayüz:** Modern ve sezgisel bir GUI ile ağ ayarlarınızı kolayca yönetebilirsiniz.
