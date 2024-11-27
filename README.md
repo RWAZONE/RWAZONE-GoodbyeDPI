@@ -78,6 +78,12 @@ Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICEN
 
 Herhangi bir sorunuz veya geri bildiriminiz varsa, [destek@rwazone.com](mailto:destek@rwazone.com) adresinden bize ulaşabilirsiniz.
 
+## 📝 **Güncelleme Notları:**
+
+**RWAZONE-GoodbyeDPI v1.2**
+   - 🛠️ Genel arayüz düzenlemesi.
+   - 🛠️ Uygulama başlatınca hizmetin otomatik çalışıyor gibi algılanmasının çözümü.
+
 ---
 
 **RWA-GoodByeDPI** ile ağ bağlantılarınızı daha verimli ve güvenli bir şekilde yönetmek için hemen başlayın!
