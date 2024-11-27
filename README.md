@@ -1,6 +1,6 @@
-# RWA-GoodByeDPI
+# RWAZONE-GoodByeDPI
 
-**RWA-GoodByeDPI**, ağ bağlantılarınızı yönetmenizi ve DPI (Deep Packet Inspection) gibi ağ kısıtlamalarını aşmanıza yardımcı olan kullanımı kolay bir Windows uygulamasıdır. Bu araç, kullanıcıların belirli ağ arayüzlerini seçmelerine, DNS ayarlarını yapılandırmalarına ve GoodbyeDPI servisini kontrol etmelerine olanak tanır.
+**RWAZONE-GoodByeDPI**, ağ bağlantılarınızı yönetmenizi ve DPI (Deep Packet Inspection) gibi ağ kısıtlamalarını aşmanıza yardımcı olan kullanımı kolay bir Windows uygulamasıdır. Bu araç, kullanıcıların belirli ağ arayüzlerini seçmelerine, DNS ayarlarını yapılandırmalarına ve GoodbyeDPI servisini kontrol etmelerine olanak tanır.
 
 ## 🚀 **Özellikler**
 
