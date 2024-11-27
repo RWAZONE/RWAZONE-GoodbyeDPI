@@ -80,13 +80,13 @@ Herhangi bir sorunuz veya geri bildiriminiz varsa, [destek@rwazone.com](mailto:d
 
 ## 📝 **Güncelleme Notları:**
 
-**RWAZONE-GoodbyeDPI v1.2**
-   - 🛠️ Genel arayüz düzenlemesi.
-   - 🛠️ Uygulama başlatınca hizmetin otomatik çalışıyor gibi algılanmasının çözümü.
-
 **RWAZONE-GoodbyeDPI v1.5**
    - 🌟 İnternet sağlayıcısı seçme bölümü eklendi. Kullandığınız sağlayıcıya göre seçim yapın.
    - 🛠️ Uygulamanın birden fazla açılabilmesi düzeltildi.
+
+**RWAZONE-GoodbyeDPI v1.2**
+   - 🛠️ Genel arayüz düzenlemesi.
+   - 🛠️ Uygulama başlatınca hizmetin otomatik çalışıyor gibi algılanmasının çözümü.
 
 ---
 
