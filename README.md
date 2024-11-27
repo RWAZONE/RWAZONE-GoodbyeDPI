@@ -16,7 +16,7 @@
 RWA-GoodByeDPI'yi kullanmaya başlamak için aşağıdaki adımları izleyin:
 
 1. **Releases Sayfasından İndir:**
-   - [Releases](https://github.com/RWAZONE/RWA-GoodByeDPI/releases) sayfasına gidin.
+   - [Releases](https://github.com/RWAZONE/RWAZONE-GoodByeDPI/releases) sayfasına gidin.
    - En son sürümü bulun ve `RWA-GoodByeDPI.zip` dosyasını indirin.
 
 2. **Arşivi Çıkartın:**
@@ -70,7 +70,7 @@ RWA-GoodByeDPI, kullanıcıların ağ bağlantılarını yönetmelerine ve Goodb
 
 ## 📜 **Lisans**
 
-Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](https://github.com/RWAZONE/RWA-GoodByeDPI/blob/main/LICENSE) dosyasını inceleyebilirsiniz.
+Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](https://github.com/RWAZONE/RWAZONE-GoodByeDPI/blob/main/LICENSE) dosyasını inceleyebilirsiniz.
 
 ## 📫 **İletişim**
 
