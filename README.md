@@ -80,6 +80,11 @@ Herhangi bir sorunuz veya geri bildiriminiz varsa, [destek@rwazone.com](mailto:d
 
 ## 📝 **Güncelleme Notları:**
 
+**RWAZONE-GoodbyeDPI v1.5.2**
+   - 🛠️ Genel yapı üzerinde iyileştirmeler.
+   - 🛠️ SuperOnline internet sağlayıcısı için daha gelişmiş yöntem eklendi.
+   - 🛠️ Yönetici olarak çalıştırma mantığı daha kullanıcı dostu hale getirildi.
+
 **RWAZONE-GoodbyeDPI v1.5**
    - 🌟 İnternet sağlayıcısı seçme bölümü eklendi. Kullandığınız sağlayıcıya göre seçim yapın.
    - 🛠️ Uygulamanın birden fazla açılabilmesi düzeltildi.
