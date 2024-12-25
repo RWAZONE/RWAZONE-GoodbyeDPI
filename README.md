@@ -80,6 +80,10 @@ Herhangi bir sorunuz veya geri bildiriminiz varsa, [destek@rwazone.com](mailto:d
 
 ## 📝 **Güncelleme Notları:**
 
+**RWAZONE-GoodbyeDPI v1.6**
+   - 🛠️ Gelen geri dönüşler üzerine TürkTelekom 5Ghz WiFi ve WiFi ağları için alternatif yöntem eklendi.
+   - 🛠️ SuperOnline internet sağlayıcısı için gelişmiş ve yeni alternatif seçenekler eklendi.
+
 **RWAZONE-GoodbyeDPI v1.5.2**
    - 🛠️ Genel yapı üzerinde iyileştirmeler.
    - 🛠️ SuperOnline internet sağlayıcısı için daha gelişmiş yöntem eklendi.
