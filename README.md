@@ -80,6 +80,20 @@ Herhangi bir sorunuz veya geri bildiriminiz varsa, [destek@rwazone.com](mailto:d
 
 ## 📝 **Güncelleme Notları:**
 
+**RWAZONE-GoodbyeDPI v1.6.5**
+   - 🌟 **İstatistikler:**
+       - 🛠️ **Ağ Trafiği:** Gönderilen ve alınan veri miktarını gösteren grafikler.
+       - 🛠️ **Servis Performansı:** GoodbyeDPI servisinin CPU ve bellek kullanımını gösteren grafikler.
+       - 🛠️ **Sistem Kaynakları:** Genel sistem CPU ve bellek kullanımını izleyen grafikler.
+   - 🛠️ Açılan pencerelerin ana uygulama arkasında kalmasına neden olan sorun giderildi.
+   - 🛠️ Kullanıcılar için daha anlaşılır hata mesajları sağlandı.
+   - 🛠️ Fonksiyonlar ve yapılar daha düzenli hale getirildi.
+   - 🛠️ Yeni kullanıcılar için yönlendirme mesajları.
+   - 🛠️ Akıcı hizmet için optimize yapıldı.
+
+![image](https://github.com/user-attachments/assets/0448d76e-052c-4187-beaa-588b6f29bddc)
+
+
 **RWAZONE-GoodbyeDPI v1.6**
    - 🛠️ Gelen geri dönüşler üzerine TürkTelekom 5Ghz WiFi ve WiFi ağları için alternatif yöntem eklendi.
    - 🛠️ SuperOnline internet sağlayıcısı için gelişmiş ve yeni alternatif seçenekler eklendi.
@@ -96,6 +110,8 @@ Herhangi bir sorunuz veya geri bildiriminiz varsa, [destek@rwazone.com](mailto:d
 **RWAZONE-GoodbyeDPI v1.2**
    - 🛠️ Genel arayüz düzenlemesi.
    - 🛠️ Uygulama başlatınca hizmetin otomatik çalışıyor gibi algılanmasının çözümü.
+
+
 
 ---
 
