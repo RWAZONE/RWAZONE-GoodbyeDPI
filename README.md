@@ -85,7 +85,7 @@ Herhangi bir sorunuz veya geri bildiriminiz varsa, [destek@rwazone.com](mailto:d
    - 🛠️ Turkcell için ekstra 2 yeni alternatif yöntem. (Turkcell ve Alternatif)
    - 🛠️ Gerçek zamanlı durum ve hata bildirimlerini daha belirgin hale getiriyor.
    - 🛠️ Hata çıktıları log dosyasına kaydediliyor.
-   - 🛠️ Artık zun süreli işlemler arka planda thread ile çalışıyor.
+   - 🛠️ Artık uzun süreli işlemler arka planda thread ile çalışıyor.
    - 🛠️ Butonlar ve seçenekler üzerine gelindiğinde açıklayıcı tooltip'ler gösteriliyor.
    - 🛠️ İzleme işlemlerinde güncelleme aralıkları sabitlerle yönetilerek performans optimizasyonu sağlanıyor.
 
