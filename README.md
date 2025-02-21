@@ -1,128 +1,101 @@
 # RWAZONE-GoodByeDPI
 
-**RWAZONE-GoodByeDPI**, ağ bağlantılarınızı yönetmenizi ve DPI (Deep Packet Inspection) gibi ağ kısıtlamalarını aşmanıza yardımcı olan kullanımı kolay bir Windows uygulamasıdır. Bu araç, kullanıcıların belirli ağ arayüzlerini seçmelerine, DNS ayarlarını yapılandırmalarına ve GoodbyeDPI servisini kontrol etmelerine olanak tanır.
+**RWAZONE-GoodByeDPI**, ağ bağlantılarınızı yönetmenizi ve DPI (Deep Packet Inspection) gibi kısıtlamaları aşmanızı sağlayan modern, kullanıcı dostu bir Windows uygulamasıdır. Bu araç sayesinde, belirli ağ arayüzlerinizin DNS ayarlarını kolayca yapılandırabilir, GoodbyeDPI servisini yönetebilir ve farklı internet sağlayıcılarına özel ayarları kullanarak kesintisiz bir çevrimiçi deneyim yaşayabilirsiniz.
 
-Bu sayede internet hızınız etkilenmeden İnternet sağlayıcıları tarafından uygulanan kısıtlamaları aşabilir, özgür ve kesintisiz bir çevrimiçi deneyimin tadını çıkarabilirsiniz. Ayrıca, kullanıcı dostu arayüzü sayesinde teknik bilgi gerektirmeden kolayca yapılandırma yapabilir ve ağ bağlantılarınızı etkin bir şekilde yönetebilirsiniz. 
+## 🚀 Özellikler
 
-## 🚀 **Özellikler**
+- **Modern ve Sezgisel Arayüz:**  
+  Kullanıcı dostu GUI, işlemleri hızlı ve kolayca gerçekleştirmenizi sağlar.
+  
+- **Ağ Arayüzü Seçimi:**  
+  Mevcut tüm ağ arayüzlerini listeleyerek, DNS ayarlarınızın hangi arayüzde uygulanacağını seçmenize olanak tanır.
+  
+- **GoodbyeDPI Servis Yönetimi:**  
+  - Servisi başlatıp durdurma
+  - Sistem hizmetleri arasına servisi ekleyip kaldırma  
+  Bu işlemler, tek bir tıklama ile gerçekleştirilir.
 
-- **Kullanıcı Dostu Arayüz:** Modern ve sezgisel bir GUI ile ağ ayarlarınızı kolayca yönetebilirsiniz.
-- **Ağ Arayüzü Seçimi:** Mevcut tüm ağ arayüzlerini listeler ve tercih ettiğinizi seçmenize olanak tanır.
-- **GoodbyeDPI Yönetimi:** GoodbyeDPI servisini başlatma, durdurma, ekleme ve kaldırma işlemlerini kolayca gerçekleştirin.
-- **Tema Desteği:** Koyu ve açık temalar arasında geçiş yaparak arayüzü kişiselleştirin.
-- **Sistem Tepsisi Entegrasyonu:** Uygulamayı kapattığınızda sistem tepsisinde çalışmaya devam eder veya tamamen kapatabilirsiniz.
-- **Yönetici Kontrolü:** Uygulama, gerekli işlemleri gerçekleştirmek için yönetici yetkisi gerektirir ve bu yetkileri otomatik olarak kontrol eder.
+- **Tema Desteği:**  
+  Koyu ve açık tema seçenekleri ile uygulama arayüzünü kişiselleştirin.
 
-## 📦 **Kurulum**
+- **Sistem Tepsisi Entegrasyonu:**  
+  Uygulama, pencere kapatıldığında bile sistem tepsisinde çalışmaya devam eder; böylece istediğiniz zaman kolayca erişebilirsiniz.
 
-RWA-GoodByeDPI'yi kullanmaya başlamak için aşağıdaki adımları izleyin:
+- **Gelişmiş İzleme ve Hata Bildirimleri:**  
+  Gerçek zamanlı ağ trafiği, sistem ve servis performansını gösteren grafiklerle, durum ve hata mesajları anında bildiriliyor.  
+  Hata çıktıları log dosyasına kaydedilerek sorun gidermeyi kolaylaştırır.
+
+- **Yeni Sağlayıcı Alternatifleri:**  
+  Artık yalnızca "TürkTelekom", "SuperOnline" ve "Vodafone" değil, aynı zamanda **Turkcell** ve **Turkcell - Alternatif** gibi ek seçenekler de sunuluyor.
+
+## 📦 Kurulum
 
 1. **Releases Sayfasından İndir:**
    - [Releases](https://github.com/RWAZONE/RWAZONE-GoodByeDPI/releases) sayfasına gidin.
-   - En son sürümü bulun ve `RWA-GoodByeDPI.zip` dosyasını indirin.
+   - En güncel sürümü bulun ve `RWA-GoodByeDPI.zip` dosyasını indirin.
 
 2. **Arşivi Çıkartın:**
-   - İndirdiğiniz `RWA-GoodByeDPI.zip` dosyasını istediğiniz bir klasöre çıkartın.
+   - İndirdiğiniz zip dosyasını istediğiniz bir klasöre çıkartın.
 
 3. **Uygulamayı Çalıştırın:**
-   - Çıkarttığınız klasörde bulunan `RWA-GoodByeDPI.exe` dosyasına sağ tıklayın.
-   - **"Yönetici olarak çalıştır"** seçeneğini seçin.
+   - Çıkartılan klasördeki `RWA-GoodByeDPI.exe` dosyasına sağ tıklayın ve **"Yönetici olarak çalıştır"** seçeneğini seçin.
 
-   > **Not:** Uygulamanın düzgün çalışması için yönetici yetkileri gereklidir. Yönetici izni istemeyen bir kullanıcı hesabıyla çalışıyorsanız, uygulama bazı işlevleri yerine getiremeyebilir.
+   > **Not:** Uygulamanın tam işlevselliğini kullanabilmek için yönetici yetkileri gereklidir.
 
-## 🛠 **Nasıl Çalışır**
-
-RWA-GoodByeDPI, kullanıcıların ağ bağlantılarını yönetmelerine ve GoodbyeDPI servislerini kontrol etmelerine olanak tanır. Uygulama aşağıdaki ana bileşenlerden oluşur:
-
-1. **Ağ Arayüzü Seçimi:**
-   - Mevcut tüm ağ arayüzlerini listeler.
-   - Kullanıcı, istediği ağ arayüzünü seçerek DNS ayarlarını yapılandırabilir.
-
-2. **GoodbyeDPI Yönetimi:**
-   - **Başlat/Durdur:** GoodbyeDPI servisini başlatmak veya durdurmak için butonlar.
-   - **Hizmet Ekle/Kaldır:** GoodbyeDPI servisini sistem hizmetleri arasına eklemek veya kaldırmak için butonlar.
-
-3. **Tema Desteği:**
-   - Koyu ve açık temalar arasında geçiş yaparak arayüzü kişiselleştirin.
-
-4. **Sistem Tepsisi Entegrasyonu:**
-   - Uygulamayı kapattığınızda sistem tepsisinde çalışmaya devam eder.
-   - Sistem tepsisinden çıkış yaparken GoodbyeDPI servisini de kapatır.
-
-## 🔧 **Nasıl Kullanılır**
+## 🔧 Nasıl Kullanılır
 
 1. **Uygulamayı Başlatın:**
    - `RWA-GoodByeDPI.exe` dosyasını yönetici olarak çalıştırın.
 
-2. **Ağ Arayüzünü Seçin:**
-   - Açılan pencerede, mevcut ağ arayüzlerinden birini seçin.
-   - Bu seçim, DNS ayarlarınızın yapılandırılacağı arayüz olacaktır.
+2. **Ağ Arayüzü Seçimi:**
+   - Açılan ana pencerede, listelenen ağ arayüzlerinden DNS ayarlarının uygulanacağı arayüzü seçin.
 
-3. **GoodbyeDPI Servisini Yönetin:**
-   - **Başlat/Durdur:** GoodbyeDPI servisini başlatmak veya durdurmak için ilgili butona tıklayın.
-   - **Hizmet Ekle/Kaldır:** Sistem hizmetleri arasına GoodbyeDPI servisini eklemek veya kaldırmak için ilgili butona tıklayın.
+3. **Sağlayıcı Seçimi:**
+   - İlgili internet sağlayıcınızı seçin. Artık "TürkTelekom", "TürkTelekom - WiFi", "SuperOnline" (ve 6 alternatif), "Vodafone", **"Turkcell"** ve **"Turkcell - Alternatif"** seçenekleri mevcuttur.
 
-4. **Tema Değiştirme:**
-   - Alt çubuktaki tema butonunu kullanarak uygulamanın temasını koyu veya açık moda geçirin.
+4. **GoodbyeDPI Servis Yönetimi:**
+   - **Başlat/Durdur:** İlgili butona tıklayarak servisi başlatın veya durdurun.
+   - **Hizmet Ekle/Kaldır:** Servisi sistem hizmetleri arasına ekleyip kaldırmak için ilgili butonları kullanın.
 
-5. **Uygulamayı Minimize Etme:**
-   - Pencereyi kapatmak istediğinizde, uygulama sistem tepsisinde çalışmaya devam edecektir.
-   - Sistem tepsisinden çıkış yapmak istediğinizde, GoodbyeDPI servisi de kapanacaktır.
+5. **Tema ve Sistem Tepsisi:**
+   - Alt çubuktaki tema anahtarını kullanarak koyu/açık tema arasında geçiş yapın.
+   - Uygulama kapatıldığında, sistem tepsisinde çalışmaya devam ederek istediğiniz zaman geri gelebilirsiniz.
 
+## 📜 Güncelleme Notları
 
-## 📜 **Lisans**
+### RWAZONE-GoodByeDPI v1.7
+- **Yeni Sağlayıcı Alternatifleri:**  
+  - **SuperOnline:** Ek iki yeni alternatif (SuperOnline 5 ve 6) eklendi.
+  - **Turkcell:** Turkcell ve Turkcell - Alternatif yöntemleri eklendi.
+- **Gelişmiş Gerçek Zamanlı İzleme:**  
+  Durum ve hata bildirimleri daha belirgin hale getirildi.
+- **Hata Loglama:**  
+  Hata çıktıları log dosyasına kaydediliyor.
+- **Arka Plan İşlemleri:**  
+  Uzun süren işlemler ayrı thread’ler ile yönetiliyor.
+- **Tooltip Desteği:**  
+  Butonlar ve seçenekler üzerinde fare ile gezindiğinizde açıklayıcı bilgi gösteriliyor.
+- **Performans Optimizasyonu:**  
+  İzleme aralıkları sabitlerle yönetilerek uygulama performansı artırıldı.
 
-Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](https://github.com/RWAZONE/RWAZONE-GoodByeDPI/blob/main/LICENSE) dosyasını inceleyebilirsiniz.
+### Önceki Sürümler
+- **v1.6.5:**  
+  - Ağ trafiği, servis performansı ve sistem kaynaklarını gösteren grafikler.
+  - Kullanıcı dostu hata mesajları ve yönlendirme mesajları.
+- **v1.6:**  
+  - TürkTelekom 5Ghz WiFi ve WiFi ağları için alternatif yöntemler.
+  - SuperOnline için gelişmiş ve yeni alternatif seçenekler.
+- **v1.5.2:**  
+  - Genel yapı iyileştirmeleri ve yeni yönlendirme mesajları.
+- **v1.5:**  
+  - İnternet sağlayıcısı seçme bölümü eklendi.
+- **v1.2:**  
+  - Genel arayüz düzenlemesi ve otomatik hizmet çalışması problemi çözüldü.
 
-## 📫 **İletişim**
+## 📫 İletişim
 
-Herhangi bir sorunuz veya geri bildiriminiz varsa, [destek@rwazone.com](mailto:destek@rwazone.com) adresinden bize ulaşabilirsiniz.
-
-## 📝 **Güncelleme Notları:**
-
-**RWAZONE-GoodbyeDPI v1.7**
-   - 🛠️ Superonline için 2 yeni alternatif yöntem. (Superonline 5 ve 6)
-   - 🛠️ Turkcell için ekstra 2 yeni alternatif yöntem. (Turkcell ve Alternatif)
-   - 🛠️ Gerçek zamanlı durum ve hata bildirimlerini daha belirgin hale getiriyor.
-   - 🛠️ Hata çıktıları log dosyasına kaydediliyor.
-   - 🛠️ Artık uzun süreli işlemler arka planda thread ile çalışıyor.
-   - 🛠️ Butonlar ve seçenekler üzerine gelindiğinde açıklayıcı tooltip'ler gösteriliyor.
-   - 🛠️ İzleme işlemlerinde güncelleme aralıkları sabitlerle yönetilerek performans optimizasyonu sağlanıyor.
-
-**RWAZONE-GoodbyeDPI v1.6.5**
-   - 🌟 **İstatistikler:**
-       - 🛠️ **Ağ Trafiği:** Gönderilen ve alınan veri miktarını gösteren grafikler.
-       - 🛠️ **Servis Performansı:** GoodbyeDPI servisinin CPU ve bellek kullanımını gösteren grafikler.
-       - 🛠️ **Sistem Kaynakları:** Genel sistem CPU ve bellek kullanımını izleyen grafikler.
-   - 🛠️ Açılan pencerelerin ana uygulama arkasında kalmasına neden olan sorun giderildi.
-   - 🛠️ Kullanıcılar için daha anlaşılır hata mesajları sağlandı.
-   - 🛠️ Fonksiyonlar ve yapılar daha düzenli hale getirildi.
-   - 🛠️ Yeni kullanıcılar için yönlendirme mesajları.
-   - 🛠️ Akıcı hizmet için optimize yapıldı.
-
-![image](https://github.com/user-attachments/assets/0448d76e-052c-4187-beaa-588b6f29bddc)
-
-
-**RWAZONE-GoodbyeDPI v1.6**
-   - 🛠️ Gelen geri dönüşler üzerine TürkTelekom 5Ghz WiFi ve WiFi ağları için alternatif yöntem eklendi.
-   - 🛠️ SuperOnline internet sağlayıcısı için gelişmiş ve yeni alternatif seçenekler eklendi.
-
-**RWAZONE-GoodbyeDPI v1.5.2**
-   - 🛠️ Genel yapı üzerinde iyileştirmeler.
-   - 🛠️ SuperOnline internet sağlayıcısı için daha gelişmiş yöntem eklendi.
-   - 🛠️ Yönetici olarak çalıştırma mantığı daha kullanıcı dostu hale getirildi.
-
-**RWAZONE-GoodbyeDPI v1.5**
-   - 🌟 İnternet sağlayıcısı seçme bölümü eklendi. Kullandığınız sağlayıcıya göre seçim yapın.
-   - 🛠️ Uygulamanın birden fazla açılabilmesi düzeltildi.
-
-**RWAZONE-GoodbyeDPI v1.2**
-   - 🛠️ Genel arayüz düzenlemesi.
-   - 🛠️ Uygulama başlatınca hizmetin otomatik çalışıyor gibi algılanmasının çözümü.
-
-
+Herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen [destek@rwazone.com](mailto:destek@rwazone.com) adresinden bizimle iletişime geçin.
 
 ---
 
-**RWA-GoodByeDPI** ile ağ bağlantılarınızı daha verimli ve güvenli bir şekilde yönetmek için hemen başlayın!
-
+**RWAZONE-GoodByeDPI** ile ağ bağlantılarınızı daha verimli, güvenli ve kesintisiz hale getirin. Hemen deneyin!
