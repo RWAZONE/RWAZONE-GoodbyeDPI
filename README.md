@@ -80,6 +80,15 @@ Herhangi bir sorunuz veya geri bildiriminiz varsa, [destek@rwazone.com](mailto:d
 
 ## 📝 **Güncelleme Notları:**
 
+**RWAZONE-GoodbyeDPI v1.7**
+   - 🛠️ Superonline için 2 yeni alternatif yöntem. (Superonline 5 ve 6)
+   - 🛠️ Turkcell için ekstra 2 yeni alternatif yöntem. (Turkcell ve Alternatif)
+   - 🛠️ Gerçek zamanlı durum ve hata bildirimlerini daha belirgin hale getiriyor.
+   - 🛠️ Hata çıktıları log dosyasına kaydediliyor.
+   - 🛠️ Artık zun süreli işlemler arka planda thread ile çalışıyor.
+   - 🛠️ Butonlar ve seçenekler üzerine gelindiğinde açıklayıcı tooltip'ler gösteriliyor.
+   - 🛠️ İzleme işlemlerinde güncelleme aralıkları sabitlerle yönetilerek performans optimizasyonu sağlanıyor.
+
 **RWAZONE-GoodbyeDPI v1.6.5**
    - 🌟 **İstatistikler:**
        - 🛠️ **Ağ Trafiği:** Gönderilen ve alınan veri miktarını gösteren grafikler.
